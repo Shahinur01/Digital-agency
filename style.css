@@ -5,6 +5,10 @@ html{
 *{
     margin: 0;
     padding: 0;
+    
+}
+a{
+    text-decoration: none;
 }
 body{
     font-family: sans-serif;
@@ -217,4 +221,17 @@ hr{
     margin-bottom: 0;
     padding-bottom: 20px;
     text-align: center;
+}
+.top{
+    /* position:absolute; */
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
+    padding: 0px 20px;
+    margin-left: 1400px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.top a{
+    color: white;
+
 }
